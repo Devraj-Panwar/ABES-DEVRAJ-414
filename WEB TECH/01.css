@@ -1,0 +1,61 @@
+body {
+    background: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+fieldset {
+    width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 15px;
+    background: linear-gradient(to right, purple, black);
+}
+
+legend {
+    padding: 0 15px;
+}
+
+legend h2 {
+    margin: 0;
+    color: white;
+}
+
+table {
+    margin: auto;
+}
+
+td {
+    padding: 8px;
+    color: white;
+}
+
+input,
+select,
+textarea {
+    width: 220px;
+    padding: 6px;
+    background: linear-gradient(to right, purple, black);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+input[type="radio"] {
+    width: auto;
+}
+
+input[type="file"] {
+    width: auto;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    width: 100px;
+    cursor: pointer;
+}

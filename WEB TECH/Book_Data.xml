@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+    <book category="Fiction">
+    <title lang="en">The Hobbit</title>
+    <author>J.R.R. Tolkien</author>
+    <year>1937</year>
+</book>
+    <book category="Education">
+    <title lang="en">Learning XML</title>
+    <author>Erikj T. Ray</author>
+    <year>2003</year>
+</book>
+</bookstore>
+
+

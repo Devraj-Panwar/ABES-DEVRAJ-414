@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2-Day Banaras Vacation Planner</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#faf7f2;
+color:#222;
+}
+
+header{
+height:100vh;
+background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.6)),
+url("https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1600&q=80");
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+header h1{
+font-size:55px;
+}
+
+header p{
+margin:20px auto;
+max-width:700px;
+font-size:20px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 35px;
+background:#ff9800;
+text-decoration:none;
+color:white;
+border-radius:40px;
+font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover{
+background:#ff5722;
+}
+
+section{
+padding:70px 10%;
+}
+
+h2{
+text-align:center;
+margin-bottom:40px;
+color:#ff5722;
+font-size:35px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h3{
+color:#ff9800;
+margin-bottom:15px;
+}
+
+ul{
+padding-left:18px;
+line-height:1.9;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+}
+
+table th{
+background:#ff9800;
+color:white;
+padding:15px;
+}
+
+table td{
+padding:15px;
+border-bottom:1px solid #ddd;
+text-align:center;
+}
+
+.total{
+background:#fff3e0;
+padding:25px;
+border-radius:15px;
+margin-top:30px;
+font-size:20px;
+font-weight:bold;
+text-align:center;
+}
+
+footer{
+background:#222;
+color:white;
+padding:40px;
+text-align:center;
+}
+
+.tip{
+background:#fff;
+padding:20px;
+border-left:6px solid orange;
+margin-bottom:15px;
+border-radius:8px;
+}
+
+@media(max-width:768px){
+
+header h1{
+font-size:38px;
+}
+
+header p{
+font-size:17px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div>
+
+<h1>🛕 Banaras 2-Day Vacation Planner</h1>
+
+<p>
+Experience the spiritual soul of India with this complete
+2-day itinerary including hotels, food, sightseeing,
+budget planning and travel essentials.
+</p>
+
+<a href="#itinerary" class="btn">Plan My Trip</a>
+
+</div>
+
+</header>
+
+<section id="itinerary">
+
+<h2>📅 2-Day Itinerary</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>🌅 Day 1 – Spiritual Banaras</h3>
+
+<ul>
+
+<li>5:30 AM – Sunrise Boat Ride at Assi Ghat</li>
+
+<li>Visit Kashi Vishwanath Temple</li>
+
+<li>Breakfast: Kachori Sabzi + Jalebi</li>
+
+<li>Walk through Vishwanath Gali</li>
+
+<li>Lunch - Authentic Banarasi Thali</li>
+
+<li>Visit Manikarnika Ghat</li>
+
+<li>Evening Ganga Aarti at Dashashwamedh Ghat</li>
+
+<li>Dinner near Assi Ghat</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<h3>🏛️ Day 2 – Culture & Heritage</h3>
+
+<ul>
+
+<li>Breakfast - Banarasi Chai</li>
+
+<li>Visit Sarnath</li>
+
+<li>Explore Museum & Dhamek Stupa</li>
+
+<li>Lunch</li>
+
+<li>Banarasi Silk Shopping</li>
+
+<li>Taste Famous Blue Lassi</li>
+
+<li>Sunset Walk Along Ghats</li>
+
+<li>Departure</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>🏨 Recommended Hotels</h2>
+
+<table>
+
+<tr>
+
+<th>Category</th>
+<th>Price/Night</th>
+<th>Recommended</th>
+
+</tr>
+
+<tr>
+
+<td>Budget</td>
+<td>₹1000-1800</td>
+<td>Narayana Haveli</td>
+
+</tr>
+
+<tr>
+
+<td>Mid Range</td>
+<td>₹2500-4500</td>
+<td>Pearl Courtyard</td>
+
+</tr>
+
+<tr>
+
+<td>Luxury</td>
+<td>₹8000+</td>
+<td>Taj Ganges</td>
+
+</tr>
+
+</table>
+
+</section>
+
+<section>
+
+<h2>🍲 Must Try Food</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Street Food</h3>
+
+<ul>
+
+<li>Kachori Sabzi</li>
+
+<li>Tamatar Chaat</li>
+
+<li>Baati Chokha</li>
+
+<li>Chura Matar</li>
+
+<li>Banarasi Chaat</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<h3>Sweets</h3>
+
+<ul>
+
+<li>Blue Lassi</li>
+
+<li>Malaiyo (Winter)</li>
+
+<li>Rabri</li>
+
+<li>Jalebi</li>
+
+<li>Banarasi Paan</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>💰 Estimated Budget (Per Person)</h2>
+
+<table>
+
+<tr>
+<th>Expense</th>
+<th>Cost</th>
+</tr>
+
+<tr>
+<td>Hotel (1 Night)</td>
+<td>₹1500</td>
+</tr>
+
+<tr>
+<td>Food</td>
+<td>₹1000</td>
+</tr>
+
+<tr>
+<td>Boat Ride</td>
+<td>₹300</td>
+</tr>
+
+<tr>
+<td>Transport</td>
+<td>₹800</td>
+</tr>
+
+<tr>
+<td>Shopping</td>
+<td>₹1500 (Optional)</td>
+</tr>
+
+</table>
+
+<div class="total">
+
+Estimated Total Budget:
+<h2 style="margin-top:15px;color:#ff5722;">₹5,000 – ₹7,000</h2>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>🎒 Packing Checklist</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<ul>
+
+<li>✔ Comfortable Shoes</li>
+
+<li>✔ Water Bottle</li>
+
+<li>✔ Sunglasses</li>
+
+<li>✔ Power Bank</li>
+
+<li>✔ ID Proof</li>
+
+<li>✔ Cash & UPI</li>
+
+<li>✔ Camera</li>
+
+<li>✔ Medicines</li>
+
+<li>✔ Light Cotton Clothes</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>💡 Travel Tips</h2>
+
+<div class="tip">
+Reach Ganga Aarti at least 45–60 minutes early for a good viewing spot.
+</div>
+
+<div class="tip">
+Dress modestly while visiting temples.
+</div>
+
+<div class="tip">
+Carry cash for local street food and boat rides.
+</div>
+
+<div class="tip">
+Drink bottled water only.
+</div>
+
+<div class="tip">
+Use e-rickshaws or walk inside old Banaras lanes.
+</div>
+
+</section>
+
+<section>
+
+<h2>📞 Emergency Information</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Useful Numbers</h3>
+
+<ul>
+
+<li>Police : 112</li>
+
+<li>Ambulance : 108</li>
+
+<li>Tourist Helpline : 1363</li>
+
+<li>Nearest Airport : Lal Bahadur Shastri Airport</li>
+
+<li>Nearest Railway Station : Varanasi Junction</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h2 style="color:white;">🙏 Thank You</h2>
+
+<p>
+Have a safe and memorable journey to the Spiritual Capital of India.
+</p>
+
+<p style="margin-top:15px;">
+Made with ❤️ for Travelers
+</p>
+
+</footer>
+
+</body>
+</html>
