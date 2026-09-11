@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+           padding: 10px; 
+           transition: ease-in-out 0.5s;
+        }
+        .box{
+            background-color: lightblue;
+        }
+        div{
+            box-shadow:5px 5px 5px 5px rgb(81, 167, 213)  ;
+           
+            transition-timing-function: ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <table border="2px solid black" width="600px" height="100px" align="center" padding="6">
+            <tr>
+                <th>BASIC</th>
+                <th class="box">STANDARD</th>
+                <th>PREMIUM</th>
+            </tr>
+            <tr align="center">
+                <td>₹ 199</td>
+                <td class="box">₹ 499</td>
+                <td>₹ 999</td>
+            </tr>
+        </table>
+        <input type="button" value="BUY NOW" style="background-color:lightgreen; align=center; margin-left:45%; margin-top:1rem; padding:10px; border-radius:10px; box-shadow:2px 2px 2px 2px grey; cursor:pointer;" >
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Navigation Bar</title>
+  <style>
+    nav {
+      background-color: darkblue;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-around;
+    }
+    nav ul li a {
+      display: block;
+      padding: 10px 20px;
+      color: white;
+      text-decoration: none;
+    }
+    nav ul li a:hover {
+      color: yellow;
+      background-color: blue;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main style="margin-top:1.5rem;">
+    <section id="home"><h2>Home</h2><p>Welcome to the homepage.</p></section>
+    <section id="about" style="margin-top:1rem;"><h2>About</h2><p>About us.</p></section>
+    <section id="services" style="margin-top:1rem;"><h2>Services</h2><p>Our services.</p></section>
+    <section id="contact" style="margin-top:1rem;"><h2>Contact</h2><p>Contact info.</p></section>
+  </main>
+
+
+</body>
+</html>

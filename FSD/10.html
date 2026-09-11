@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2> registration form</h2>
+        <form>
+            <!---name-->
+            <label for="name">full name</label>
+        <input type="type" id="name" name="name" placeholder="enter your name" required>
+        <!--email-->
+         <label for="email">email</label>
+        <input type="email" id="email" name="email" placeholder="enter your email" required>
+
+        <!---password-->
+         <label for="password">password</label>
+        <input type="password" id="password" name="password" placeholder="enter your password" required>
+
+        <!---gender(radio button)-->
+        <label>GENDER</label>
+        <div class="radio-group">
+            <label><input type="radio" name="GENDER" placeholder="MALE">MALE</label>
+            <label><input type="radio" name="GENDER" placeholder="female">FEMALE</label>
+            <label><input type="radio" name="GENDER" placeholder="PREFER NOT TO SAY" >PREFER NOT TO SAY</label>
+
+        <!--skills-->
+        <label>skills</label>
+        <div class="checkbox-group">
+            <label><input type="checkbox" name="skills" value="HTML">HTML</label>
+            <label><input type="checkbox" name="skills" value="CSS" >CSS</label>
+            <label><input type="checkbox" name="skills" value="JS" >JS</label>
+        </div>
+        <!--country(dropdown)-->
+        <label for="country">country</label>
+        <select id="country" name="country">
+            <option value=“”>----SELECT----</option>
+            
+            <option value="INDIA">INDIA</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+        </select>
+        <!--message-->
+        <label for="message">message</label>
+        <textarea id="message" name="message" rows="10" placeholder="write your message"></textarea>
+        <!--message-->
+        <button>SUBMIT</button>
+        </div>
+
+
+
+
+        </form>
+</body>
+</html>
